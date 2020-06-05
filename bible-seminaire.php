@@ -6,20 +6,20 @@
 
   <!-- Page Content -->
   <div class="container-fluid seminar-tabs">
-  <ul class="nav nav-tabs" role="tablist">
-    <li class="nav-item">
-      <a class="nav-link active" data-toggle="tab" href="#home">Coréen-Français</a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link" data-toggle="tab" href="#menu1">Français</a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link" data-toggle="tab" href="#menu2">Chinois</a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link" data-toggle="tab" href="#menu3">Coréen-Anglais</a>
-    </li>
-  </ul>
+    <ul class="nav nav-tabs" role="tablist">
+      <li class="nav-item">
+        <a class="nav-link active" data-toggle="tab" href="#home">Coréen-Français</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" data-toggle="tab" href="#menu1">Français</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" data-toggle="tab" href="#menu2">Chinois</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" data-toggle="tab" href="#menu3">Coréen-Anglais</a>
+      </li>
+    </ul>
 
   <!-- Tab panes -->
   <div class="tab-content">
@@ -56,4 +56,4 @@
 </div>
   <!-- /.container -->
 
-  <?php include_once('inc/footer.inc.php') ?>
+<?php include_once('inc/footer.inc.php') ?>

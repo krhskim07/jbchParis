@@ -3,6 +3,14 @@
  * Copyright 2013-2019 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-blog-post/blob/master/LICENSE)
  */
+ *{
+
+  margin:0;
+  
+  padding:0;
+  
+  }
+
 body {
   padding-top: 10%;
 }
@@ -18,7 +26,12 @@ body {
 .navbar .navbar-brand img{
   width: 15%;
 }
-
+.navbar li>a{
+  color: #fff !important;
+}
+.navbar li>a:hover{
+  color: #333 !important;
+}
 /*seminar tabs*/
 
 .seminar-tabs{
@@ -63,15 +76,74 @@ body {
 .verset{
   text-align: center;
 }
+.verset h2{
+  padding-top: 2%
+}
 .verset p{
   text-align: center;
   color: #fff;
 }
 
 footer{
+  position: relative;
+  bottom: 0;
+  width: 100%;
   height: 140px;
 }
 
 .contact-area {
   height: 600px;
 }
+
+@media only screen and (min-width: 991px) and (max-width: 1200px) {
+  /* line 99, ../../01 cl html template/03_jun 2019/181_Fitness Trainer_html/sass/_common.scss */
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  /* line 99, ../../01 cl html template/03_jun 2019/181_Fitness Trainer_html/sass/_common.scss */
+ 
+}
+
+@media (max-width: 575px) {
+  /* line 99, ../../01 cl html template/03_jun 2019/181_Fitness Trainer_html/sass/_common.scss */
+  .boot-elemant-bg { 
+    margin-top: 0%;
+    width: 100%;
+    height: 400px;
+    background-image: url('../img/brown-book.jpg');
+    position: relative; 
+    background-repeat: no-repeat; 
+    background-size: cover;  
+    background-position: center center;
+  }
+  .position-relative{ 
+    position: relative; 
+    z-index: 10; 
+  }
+  .verset h2{
+    margin-top: 5%;
+    font-size: 30px;;
+  }
+  .verset{
+    text-align: center;
+  }
+  .verset p{
+    text-align: center;
+    color: #fff;
+  }
+  
+  footer{
+    height: 140px;
+  }
+  
+  .contact-area {
+    height: 600px;
+  }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  /* line 99, ../../01 cl html template/03_jun 2019/181_Fitness Trainer_html/sass/_common.scss */
+
+}
+
