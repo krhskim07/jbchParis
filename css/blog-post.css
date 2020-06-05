@@ -107,10 +107,16 @@ footer{
 
 @media (max-width: 575px) {
   /* line 99, ../../01 cl html template/03_jun 2019/181_Fitness Trainer_html/sass/_common.scss */
+  .navbar .navbar-brand img{
+    width: 30%;
+  }
+  .seminar-tabs{
+    margin-top: 10%;
+  }
   .boot-elemant-bg { 
-    margin-top: 0%;
+    margin-top: 5%;
     width: 100%;
-    height: 400px;
+    height: 500px;
     background-image: url('../img/brown-book.jpg');
     position: relative; 
     background-repeat: no-repeat; 
@@ -122,7 +128,7 @@ footer{
     z-index: 10; 
   }
   .verset h2{
-    margin-top: 5%;
+    margin-top: 10%;
     font-size: 30px;;
   }
   .verset{
@@ -138,7 +144,8 @@ footer{
   }
   
   .contact-area {
-    height: 600px;
+    margin-top: 10%;
+    height: auto;
   }
 }
 
