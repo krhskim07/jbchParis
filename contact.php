@@ -18,7 +18,7 @@
         <p>19 avenue d'Ivry 75013 Paris (Entrée)</p>
         <p>84 Entresol bd Masséna 75013 Paris (adresse Postale)</p>
         <h5 class="pt-2">Contact</h5>
-        <i class="fas fa-phone" style="color:#000"></i> <a href="tel:+"> +33686184702 </a><br>
+        <!-- <i class="fas fa-phone" style="color:#000"></i> <a href="tel:+"> +33686184702 </a><br> -->
         <h5 class="pt-2">Email</h5>
         <i class="fa fa-envelope" style="color:#000"></i> <a href="">jbch.paris@gmail.com</a><br>
       </div>
