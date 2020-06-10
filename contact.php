@@ -14,7 +14,7 @@
     <div class="col-sm-4" id="contact2">
         <h3>Information</h3>
         <hr align="left" width="50%">
-        <h5 class="pt-2">Address</h5>
+        <h5 class="pt-2">Adresse</h5>
         <p>19 avenue d'Ivry 75013 Paris (Entrée)</p>
         <p>84 Entresol bd Masséna 75013 Paris (adresse Postale)</p>
         <h5 class="pt-2">Contact</h5>
